@@ -1,0 +1,54 @@
+.container{
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: rgba(0, 255, 255, 0.534); */
+}
+
+.content{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.up{
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.199);
+}
+
+
+h1{
+  text-align: right;
+    font-size: 13vw;
+    font-weight: 700;
+    line-height: 1;
+    color: #111111;
+    font-family: Manrope, sans-serif;
+}
+
+
+
+.down{
+  width: 100%;
+  background-color: rgba(187, 0, 0, 0.151);
+  margin-top: 50px;
+}
+
+h4{
+  font-size: 3vw;
+  font-weight: 700;
+  color: #111111;
+  font-family: Manrope, sans-serif;
+}
+
+
+.pie{
+  width: 100%;
+  text-align: right;
+  font-size: 3vw;
+  font-weight: 700;
+  font-family: Manrope, sans-serif;
+  color: #111111;
+  margin-top: 20px;
+}
