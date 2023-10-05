@@ -51,4 +51,36 @@ h4{
   font-family: Manrope, sans-serif;
   color: #111111;
   margin-top: 20px;
+
+  background-color: rgba(255, 0, 0, 0.123);
 }
+
+h1, h4, h5{
+  transform: rotateX(90deg) skew(5deg, 0deg) rotateY(3deg);
+  opacity: 0;
+}
+
+.transizione {
+  transition: all 0.8s ease-in-out;
+  opacity: 1;
+  transform: rotateX(0deg) skew(0deg, 0deg) rotateY(0deg);
+}
+
+
+.transizione2 {
+  transition: all 0.8s ease-in-out;
+  opacity: 1;
+  transform: rotateX(0deg) skew(0deg, 0deg) rotateY(0deg);
+}
+
+.transizione3 {
+  transition: all 0.8s ease-in-out;
+  opacity: 1;
+  transform: rotateX(0deg) skew(0deg, 0deg) rotateY(0deg);
+}
+
+
+
+
+
+
