@@ -33,7 +33,7 @@ export class CiaoGianniComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   onScroll(event: Event): void {
     this.scrolledPixels = window.scrollY;
-    this.isScrolled = this.scrolledPixels >= 70; // Imposta isScrolled in base alla condizione
+    this.isScrolled = this.scrolledPixels >= 4; // Imposta isScrolled in base alla condizione
     console.log('Scrolled Pixels:', this.scrolledPixels);
   }
 
