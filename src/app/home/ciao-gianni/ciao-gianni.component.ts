@@ -38,10 +38,13 @@ export class CiaoGianniComponent implements OnInit {
     this.isScrolled = this.scrolledPixels >= 4;
 
     // Aggiungi questa condizione per mostrare il container2 quando si scorre oltre i 4 pixel
-    if (this.scrolledPixels >= 5) {
+    if (this.scrolledPixels >= 4) {
       this.showContainer2 = true;
-    } if (this.scrolledPixels < 5) {
+    } if (this.scrolledPixels < 4) {
       this.showContainer2 = false;
     }
   }
 }
+
+
+

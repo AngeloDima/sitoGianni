@@ -100,10 +100,10 @@ h1, h4, h5{
   height: 100vh;
   background-color: red;
   transform: translateX(100%);
-  transition: transform 1s ease; /* Aggiungi una transizione */
+  transition: transform 0.5s ease; /* Aggiungi una transizione */
   position: fixed; /* Imposta il position a fixed per far sì che il container2 rimanga visibile durante lo scrolling */
   right: 0;
-  top: 0;
+  top: 65px;
 }
 
 .show-container2 {
@@ -114,8 +114,10 @@ h1, h4, h5{
 
 .blocco{
   width: 100%;
-  height: 20vh;
+  height: 5vh;
   background-color: aliceblue;
+  transform: translateY(10%);
+  margin: auto;
 }
 
 
