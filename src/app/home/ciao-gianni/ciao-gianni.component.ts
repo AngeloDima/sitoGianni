@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-ciao-gianni',
@@ -10,6 +10,8 @@ export class CiaoGianniComponent implements OnInit {
   tran2: boolean = false;
   tran3: boolean = false;
 
+  scrolledPixels: number = 0;
+  isScrolled: boolean = false; // Variabile per tenere traccia del superamento dei 90 pixel di scroll
   constructor() { }
 
   ngOnInit(): void {
@@ -27,4 +29,17 @@ export class CiaoGianniComponent implements OnInit {
       this.tran3 = true; // Attiva la transizione per tran2 dopo 400 millisecondi
     }, 900);
   }
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: Event): void {
+    this.scrolledPixels = window.scrollY;
+    this.isScrolled = this.scrolledPixels >= 70; // Imposta isScrolled in base alla condizione
+    console.log('Scrolled Pixels:', this.scrolledPixels);
+  }
+
+
+
 }
+
+
+
