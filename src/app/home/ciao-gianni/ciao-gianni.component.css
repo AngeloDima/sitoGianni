@@ -100,23 +100,14 @@ h1, h4, h5{
   height: 100vh;
   background-color: red;
   transform: translateX(100%);
-  transition: transform 1s ease; /* Aggiorna la transizione per il transform */
+  transition: transform 1s ease; /* Aggiungi una transizione */
   position: fixed; /* Imposta il position a fixed per far sì che il container2 rimanga visibile durante lo scrolling */
   right: 0;
   top: 0;
 }
 
-.scrolla {
-  transform: translateX(0%); /* Posiziona il container2 fuori dallo schermo a destra */
-}
-
-
-.scrolla{
-  width: 100%;
-  min-width: 100%;
-  height: 100vh;
-  background-color: red;
-  transform: translateX(100deg);
+.show-container2 {
+  transform: translateX(0%);
 }
 
 
@@ -126,4 +117,5 @@ h1, h4, h5{
   height: 20vh;
   background-color: aliceblue;
 }
+
 
