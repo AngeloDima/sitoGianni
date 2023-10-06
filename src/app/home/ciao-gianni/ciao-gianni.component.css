@@ -14,7 +14,7 @@
 
 .up{
   width: 100%;
-  background-color: rgba(255, 0, 0, 0.199);
+  /* background-color: rgba(255, 0, 0, 0.199); */
 }
 
 
@@ -31,7 +31,7 @@ h1{
 
 .down{
   width: 100%;
-  background-color: rgba(187, 0, 0, 0.151);
+  /* background-color: rgba(187, 0, 0, 0.151); */
   margin-top: 50px;
 }
 
@@ -52,7 +52,7 @@ h4{
   color: #111111;
   margin-top: 20px;
 
-  background-color: rgba(255, 0, 0, 0.123);
+  /* background-color: rgba(255, 0, 0, 0.123); */
 }
 
 h1, h4, h5{
@@ -94,21 +94,95 @@ h1, h4, h5{
 
 }
 
+
+
+/* NEW PAGE */
+
+
 .container2 {
   width: 100%;
-  min-width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-color: rgb(255, 255, 255);
   transform: translateX(100%);
-  transition: transform 0.6s cubic-bezier(.57,.51,.67,.8); /* Aggiungi una transizione */
-  position: fixed; /* Imposta il position a fixed per far sì che il container2 rimanga visibile durante lo scrolling */
+  transition: transform 0.8s cubic-bezier(.57,.51,.67,.8); /* Aggiungi una transizione */
+  position: absolute; /* Imposta il position a fixed per far sì che il container2 rimanga visibile durante lo scrolling */
   right: 0;
-  top: 65px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.4%;
 }
 
 .show-container2 {
   transform: translateX(0%);
 }
+
+
+
+
+.divisione{
+  width: 95%;
+  height: 95%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.sx{
+  width: 45%;
+  height: 100%;
+  box-shadow: 15px 2px 11px -15px #0000003b;
+  /* background-color: aqua; */
+}
+
+.foto{
+  width: 100%;
+  height: 70%;
+  /* background-color: aliceblue; */
+}
+
+.foto img{
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  width: 100%;
+  height: 30%;
+  /* background-color: bisque; */
+}
+
+.info h3{
+  font-family: 'Jost', sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+    color: #000000bd;
+}
+
+.info p{
+  font-family: 'Jost', sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000000bd;
+}
+
+
+
+.dx{
+  width: 45%;
+  height: 100%;
+  box-shadow: -15px -2px 14px -11px #00000046;
+  /* background-color: rgb(0, 255, 85); */
+}
+
+
+
+
+
+
 
 
 
