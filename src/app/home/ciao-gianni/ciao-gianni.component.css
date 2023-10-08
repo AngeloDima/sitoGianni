@@ -117,7 +117,7 @@ h1, h4, h5{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3.4%;
+  margin-top: 5.8%;
 }
 
 .show-container2 {
@@ -163,10 +163,10 @@ h1, h4, h5{
 }
 
 .info h3{
-  font-family: 'Jost', sans-serif;
-    font-size: 4vw;
-    font-weight: 300;
-    color: #000000bd;
+  font-family: Manrope, sans-serif;
+  font-size: 4vw;
+  font-weight: 500;
+  color: black;
 }
 
 .info p{
