@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CiaoGianniComponent } from './home/ciao-gianni/ciao-gianni.component';
 import { AltreInfoComponent } from './home/altre-info/altre-info.component';
 import { SliderComponent } from './home/slider/slider.component';
+import { SocialComponent } from './home/social/social.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SliderComponent } from './home/slider/slider.component';
     NavBarComponent,
     CiaoGianniComponent,
     AltreInfoComponent,
-    SliderComponent
+    SliderComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
