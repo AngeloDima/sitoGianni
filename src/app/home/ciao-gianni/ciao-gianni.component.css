@@ -163,6 +163,27 @@ h1, h4, h5{
   /* background-color: bisque; */
 }
 
+
+.info img{
+  transform: rotate(315deg);
+  scale: 0.9;
+  opacity: 1;
+  position: absolute;
+  top: 11%;
+  right: 3%;
+}
+
+
+.info img:hover{
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  scale: 0;
+}
+
+
+
+
+
 .info h3{
   font-family: Manrope, sans-serif;
   font-size: 4vw;
