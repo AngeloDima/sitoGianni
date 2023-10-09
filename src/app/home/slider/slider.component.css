@@ -1,0 +1,49 @@
+.container {
+  width: 500vw;
+  height: 20vh;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.596);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.596);
+}
+
+.content {
+  width: auto;
+  height: 95%;
+  /* background-color: rgba(0, 255, 85, 0.205); */
+
+  animation: slide 40s infinite;
+  white-space: nowrap;
+}
+
+span {
+  font-size: 3.5vw;
+
+  margin: 0px 40px;
+  line-height: 125px;
+
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  color: rgb(24, 24, 24);
+
+
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5000px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+
