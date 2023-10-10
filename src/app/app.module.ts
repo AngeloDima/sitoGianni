@@ -9,6 +9,7 @@ import { CiaoGianniComponent } from './home/ciao-gianni/ciao-gianni.component';
 import { AltreInfoComponent } from './home/altre-info/altre-info.component';
 import { SliderComponent } from './home/slider/slider.component';
 import { AboutComponent } from './home/About/about.component';
+import { SocialComponent } from './home/social/social.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutComponent } from './home/About/about.component';
     CiaoGianniComponent,
     AltreInfoComponent,
     SliderComponent,
-    AboutComponent
+    AboutComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
