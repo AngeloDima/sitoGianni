@@ -8,7 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CiaoGianniComponent } from './home/ciao-gianni/ciao-gianni.component';
 import { AltreInfoComponent } from './home/altre-info/altre-info.component';
 import { SliderComponent } from './home/slider/slider.component';
-import { SocialComponent } from './home/social/social.component';
+import { AboutComponent } from './home/About/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { SocialComponent } from './home/social/social.component';
     CiaoGianniComponent,
     AltreInfoComponent,
     SliderComponent,
-    SocialComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
