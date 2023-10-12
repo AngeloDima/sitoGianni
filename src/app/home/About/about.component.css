@@ -60,6 +60,7 @@
   height: 35vh;
   background-color: #fafafa;
   overflow-y: hidden;
+  position: relative;
 }
 
 .waveSotto img{
@@ -67,7 +68,14 @@
 }
 
 
-
+.waveSotto h1{
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  font-family: 'Jost', sans-serif;
+  font-size: 10vw;
+  letter-spacing: 8px;
+}
 
 
 
