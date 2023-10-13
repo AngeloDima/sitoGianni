@@ -101,6 +101,107 @@ h1, h4, h5{
 }
 
 
+/* RESPONSIVE PAGE1 */
+
+
+@media (max-width:1000px){
+
+  .container{
+    margin-top: 80px;
+  }
+
+  .container .content .up h1{
+    font-size: 140px;
+  }
+
+  .container .content .down h4{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .container .content .pie h5{
+    font-size: 30px;
+
+  }
+}
+
+
+
+@media (max-width:800px){
+
+  .container{
+    margin-top: 70px;
+  }
+
+  .container .content .up h1{
+    font-size: 110px;
+  }
+
+  .container .content .down h4{
+    font-size: 55px;
+    padding-right: 65%;
+
+  }
+
+  .container .content .pie h5{
+    font-size: 30px;
+
+  }
+}
+
+
+
+@media (max-width:700px){
+
+
+  .container .content .up h1{
+    font-size: 90px;
+  }
+
+  .container .content .down h4{
+    font-size: 45px;
+    padding-right: 65%;
+
+  }
+
+  .container .content .pie h5{
+    font-size: 20px;
+
+  }
+}
+
+
+@media (max-width:570px){
+
+  .container .content .down h4{
+    padding-right: 35%;
+
+  }
+
+}
+
+
+@media (max-width:315px){
+
+
+  .container .content .up h1{
+    font-size: 75px;
+  }
+
+  .container .content .down h4{
+    font-size: 35px;
+  }
+
+  .container .content .pie h5{
+    font-size: 20px;
+
+  }
+}
+
+
+
+/* END PAGE1 */
+
 
 /* NEW PAGE */
 
