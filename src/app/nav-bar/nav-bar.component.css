@@ -5,6 +5,11 @@
   z-index: 999;
 }
 
+.content2{
+  display: none;
+}
+
+
 .content{
   width: 95%;
   height: 100%;
@@ -25,4 +30,37 @@ h3{
 
 }
 
+/* RESPONSIVE */
 
+
+@media (max-width:1000px){
+  .content{
+    display: none;
+  }
+
+  .content2{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: black;
+    justify-content: space-around;
+    padding: 15px 0px;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  .content2 svg{
+    height: 30px;
+
+  }
+}
+
+
+@media (max-width:500px){
+
+  .content2 svg{
+    height: 20px;
+
+  }
+}
