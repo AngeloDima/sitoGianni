@@ -41,3 +41,36 @@
 }
 
 
+
+
+/* RESPONSIVE */
+
+@media (max-width:1100px){
+  .card h2{
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width:800px){
+  .card h2{
+    font-size: 37px;
+    margin-left: 40px;
+  }
+}
+
+
+@media (max-width:500px){
+  .card h2{
+    font-size: 37px;
+    margin: auto;
+  }
+}
+
+
+@media (max-width:300px){
+  .card h2{
+    font-size: 30px;
+
+  }
+}
