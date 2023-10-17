@@ -158,3 +158,22 @@
   }
 }
 
+
+@media (max-width:350px){
+
+.waveSotto h1{
+  font-size: 40px;
+    top: 50%;
+    left: 3%;
+}
+}
+
+
+@media (max-width:300px){
+
+  .waveSotto h1{
+    font-size: 35px;
+      top: 50%;
+      left: 2%;
+  }
+  }
