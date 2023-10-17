@@ -101,7 +101,97 @@
 
 
 
+/* RESPONSIVE */
 
 
 
+@media (max-width: 1285px){
+  .container{
+    margin-top: 35%;
+  }
+  .sx{
+    width: 410px;
 
+  }
+
+  .dx{
+    width: 380px;
+  }
+
+}
+
+
+@media (max-width: 1000px){
+
+.container{
+  margin-top: 30px;
+}
+
+
+}
+
+
+@media (max-width: 900px){
+  .sx{
+    width: 350px;
+    height: 440px;
+  }
+  .dx{
+    width: 370px;
+    height: 460px;
+  }
+}
+
+
+@media (max-width: 790px){
+  .sx{
+    width: 320px;
+    height: 410px;
+  }
+  .dx{
+    width: 320px;
+    height: 440px;
+  }
+}
+
+
+@media (max-width: 750px){
+  .container{
+    width: 90%;
+    height: 100vh;
+    flex-direction: column-reverse;
+    justify-content: initial;
+  }
+
+  .dx{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .dx .down > img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .up{
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    color: black;
+  }
+
+
+  .up h2{
+    font-size: 6vw;
+    position: relative;
+    margin: auto;
+    left: 4%;
+  }
+
+
+  .sx{
+    width: 77%;
+    height: 50%;
+    margin: auto;
+  }
+
+}
